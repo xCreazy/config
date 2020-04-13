@@ -1,0 +1,243 @@
+Echo "+-----------Config------------+"
+Echo "|			 Be a STAR 			|"
+Echo "|		  SuperStar xCrazy		|"
+Echo "|		   @2013 Config			|"
+Echo "|		 Succesful Loaded		|"
+Echo "+-----------------------------|"
+
+
+//__________________________
+
+//--> BINDURI NORMALE
+//__________________________
+
+unbindall
+bind "TAB" "+showscores;timeleft"
+bind "ESCAPE" "cancelselect"
+bind "SPACE" "+jump"
+bind "'" "+moveup"
+bind "+" "sizeup"
+bind "," "buy primary weapon ammo (optional)"
+bind "-" "sizedown"
+bind "." "buy secondary weapon ammo (optional)"
+bind "/" "+movedown"
+bind "0" "slot10"
+bind "1" "slot1"
+bind "2" "slot2"
+bind "3" "slot3"
+bind "4" "slot4"
+bind "5" "slot5"
+bind "6" "slot6"
+bind "7" "slot7"
+bind "8" "slot8"
+bind "9" "slot9"
+bind "=" "sizeup"
+bind "`" "toggleconsole"
+bind "b" "buy"
+bind "e" "+use"
+bind "f" "weapon_flashbang"
+bind "h" "+commandmenu"
+bind "i" "radio1"
+bind "j" "+score"
+bind "k" "+voicerecord"
+bind "t" "impulse 201"
+bind "m" "chooseteam"
+bind "o" "hegren;flash;flash;sgren"
+bind "x" "radio2"
+bind "c" "radio3"
+bind "r" "+reload"
+bind "s" "+back"
+bind "g" "drop"
+bind "z" "b43"
+bind "u" "messagemode2"
+bind "v" "weapon_c4"
+bind "w" "+forward"
+bind "y" "messagemode"
+bind "LEFTARROW" "+left"
+bind "RIGHTARROW" "+right"
+bind "CTRL" "+duck"
+bind "SHIFT" "+speed"
+bind "PGDN" "+lookdown"
+bind "PGUP" "+lookup"
+bind "END" "adjust_crosshair"
+bind "MWHEELUP" "+jump"
+bind "mwheeldown" "+duck"
+bind "MOUSE1" "+attack"
+bind "MOUSE2" "+attack2"
+bind "MOUSE3" "+jump"
+bind "PAUSE" "pause"
+bind "space" "+jump"
+
+//__________________________
+//--> BINDURI ARME 
+//__________________________
+
+bind "f1" "ak47; m4a1;buyammo2; buyammo1; vesthelm; vest; defuser"
+bind "f2" "deagle;buyammo2; buyammo1; vesthelm; vest;defuser"
+bind "f3" "awp;buyammo2; buyammo1; vesthelm; vestd;defuser"
+bind "KP_HOME" "hegren;flash;flash;sgren"
+bind "KP_UPARROW" "sgren"
+bind "KP_PGUP" "flash"
+bind "KP_LEFTARROW" "ak47; m4a1"
+bind "KP_5" "deagle"
+bind "KP_end" "mp5"
+bind "KP_RIGHTARROW" "awp"
+bind "KP_plus" "buyammo2; buyammo1"
+bind "KP_DOWNARROW" "usp"
+bind "KP_PGDN" "defuser"
+bind "KP_ENTER" "buyammo2; buyammo1; vesthelm; vest"
+bind "enter" "buy weapon_hegrenade"
+
+//__________________________
+//--> BINDURI SPECIALE
+//__________________________
+
+bind ";" "say /Rank by xCrazy"
+bind "'" "say /ResetScore by xCrazy"
+bind "l" "say /rankstats by xCrazy"
+
+
+//__________________________
+//--> BINDURI Uwc3
+//__________________________
+
+bind "[" "shopmenu"
+bind "]" "shopmenu2"
+bind "\" "shopmenu3"
+bind "-" "charsheet"
+bind "alt" "wcmend;wcrepair;wcdispell"
+bind "f" "wcshield"
+bind "Mouse4" "wcgate"
+bind "Mouse5" "wcgate"
+
+
+//__________________________
+//--> SETARI
+//__________________________
+
+voice_scale "2"
+voice_enable "1"
+voice_forcemicrecord "1.000000"
+console "1"
+fps_max "101"
+fps_modem "0"
+crosshair "0"
+gamma "3"
+brightness "2"
+con_color "25 32 255 32" 
+net_graph "0"
+net_scale "5"
+net_graphpos "2"
+sv_voiceenable "1"
+sv_aim "0"
+hpk_maxsize "0"
+viewsize "120"
+ati_subdiv "2"
+ati_npatch "1"
+r_bmodelhighfrac "5"
+mp_decals "300"
+gl_dither "1"
+gl_polyoffset "0.1"
+gl_overbright "0"
+gl_flipmatrix "0"
+gl_monolights "0"
+gl_spriteblend "0"
+s_rolloff "1"
+s_doppler "0"
+s_distance "60"
+s_automin_distance "2"
+s_automax_distance "30"
+s_min_distance "8"
+s_max_distance "1000"
+s_leafnum "0"
+s_refgain "0.4"
+s_refdelay "4"
+s_polykeep "1000000000"
+s_polysize "10000000"
+s_numpolys "200"
+s_bloat "2"
+s_verbwet "0.25"
+s_a3d "0"
+s_eax "1"
+volume "0.2"
+suitvolume "0.25"
+hisound "1.000000"
+bgmvolume "1"
+MP3Volume "0.800000"
+_snd_mixahead "0.1"
+team ""
+model ""
+skin ""
+topcolor "30"
+bottomcolor "6"
+r_mmx "1"
+rate "25000"
+cl_updaterate "101"
+cl_lw "1"
+cl_lc "1"
+cl_dlmax "128"
+cl_minmodels "1" 
+cl_himodels "1"
+cl_idealpitchscale "0.8"
+cl_timeout "35"
+cl_cmdbackup "2"
+cl_download_ingame "1"
+cl_allowdownload "1"
+cl_allowupload "1"
+cl_cmdrate "101"
+cl_fixtimerate "8"
+lookstrafe "0"
+lookspring "0"
+cl_forwardspeed "9999"
+cl_backspeed "9999"
+cl_sidespeed "9999"
+cl_yawspeed "9999"
+cl_vsmoothing "0.05"
+m_pitch "0.022"
+m_yaw "0.022"
+m_forward "1"
+m_side "0.8"
+m_filter "0"
+joystick "0.000000"
+hud_takesshots "1"
+fastsprites "0"
+cl_corpsestay "1"
+_cl_autowepswitch "0"
+hud_capturemouse "1"
+hud_draw "1"
+cl_righthand "1"
+cl_minmodels "0"
+cl_dynamiccrosshair "0"
+hud_fastswitch "1"
+hud_centerid "1"
+voice_modenable "1"
+hud_classautokill "1"
+name "xCrazy"
++mlook
++jlook
+ 
+//__________________________
+//--->Script Tinta
+//__________________________
+
+zoom_sensitivity_ratio "0.8"
+sensitivity "1.2"
+alias +switch "slot3; wait"
+alias -switch "slot1; wait"
+bind q "+switch" 
+
+cl_crosshair_color "0 0 255"
+cl_crosshair_translucent "0"
+
+alias "+str" "+attack; cl_crosshair_color 250"
+alias "-str" "-attack; cl_crosshair_color 0"
+
+bind mouse1 +str
+
+
+//__________________________
+//--->Script arma
+//__________________________
+
+bind "d" "+moveright; cl_righthand 1"
+bind "a" "+moveleft; cl_righthand 0"
